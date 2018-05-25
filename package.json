@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "node ./test/index.js",
+    "test": "mocha  ./test/parentCodeScoped.test.js"
   },
   "keywords": [],
   "author": "so <so@redream.cn>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2"
+  }
 }
