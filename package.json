@@ -6,7 +6,8 @@
   "scripts": {
     "run": "node ./test/index.js",
     "test": "mocha  ./test/scope.test.js",
-    "cover": "istanbul cover node_modules/mocha/bin/_mocha"
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "keywords": [],
   "author": "so <so@redream.cn>",
@@ -14,6 +15,7 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.1.2",
+    "coveralls": "^3.0.1",
     "istanbul": "^0.4.5",
     "mocha": "^5.2.0"
   }
