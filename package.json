@@ -4,7 +4,7 @@
   "description": "Limit the css scope by adding a uniform parent selector name to the selector, which is useful in componentized development and rendering.",
   "main": "lib/scope.js",
   "scripts": {
-    "run": "node ./test/index.js",
+    "example": "node ./example/index.js",
     "test": "mocha  ./test/scope.test.js",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha",
     "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
