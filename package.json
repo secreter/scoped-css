@@ -1,6 +1,6 @@
 {
   "name": "css-scoped",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "Limit the css scope by adding a uniform parent selector name to the selector, which is useful in componentized development and rendering.",
   "main": "lib/scope.js",
   "scripts": {
