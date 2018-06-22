@@ -32,3 +32,5 @@ coverage/
 jsconfig.json
 *.swp
 *.swo
+
+coverage/

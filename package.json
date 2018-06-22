@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "run": "node ./test/index.js",
-    "test": "mocha  ./test/parentCodeScoped.test.js"
+    "test": "mocha  ./test/scope.test.js",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha"
   },
   "keywords": [],
   "author": "so <so@redream.cn>",
   "license": "ISC",
-  "dependencies": {
-    "chai": "^4.1.2"
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0"
   }
 }

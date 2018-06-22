@@ -1,7 +1,7 @@
 /**
  * Created by pengchaoyang on 2018/5/25
  */
-const scoped=require('../lib/parentCodeScoped')
+const scoped=require('../lib/scope')
 var style=`@media (min-width: 1350px) {
     .container {
         width: 1300px;
