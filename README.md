@@ -1,18 +1,12 @@
-# 在此处输入标题
-
-标签（空格分隔）： 未分类
-
----
-
 # css-scoped
 
 ----------
 
- &middot;                 ![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)    ![npm](https://img.shields.io/npm/v/npm.svg)   [![Build Status](https://travis-ci.org/secreter/scoped-css.svg?branch=master)](https://travis-ci.org/secreter/scoped-css)   [![Coveralls](https://img.shields.io/coveralls/secreter/scoped-css.svg)](https://coveralls.io/github/secreter/scoped-css)
- 
+![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)    ![npm](https://img.shields.io/npm/v/css-scoped.svg)  ![npm](https://img.shields.io/npm/dm/css-scoped.svg)  [![Build Status](https://travis-ci.org/secreter/scoped-css.svg?branch=master)](https://travis-ci.org/secreter/scoped-css)   [![Coveralls](https://img.shields.io/coveralls/secreter/scoped-css.svg)](https://coveralls.io/github/secreter/scoped-css)
+
  > Limit the css scope by adding a uniform parent selector name to the selector, which is useful in componentized development and rendering.
- 
- 
+
+
 ## Installation
 -------
 ```javascript
@@ -51,7 +45,7 @@ const scopedCss=scope(css,'handsome')
 console.log(scopedCss)
 ```
 > output
-```javascript
+```css
 .handsome h1,.handsome h2,.handsome h3,.handsome h4,.handsome h5,.handsome h6 { font-size: 14px; }
 .handsome a { color: #000; }
 .handsome .list-img-flex .job .job-mes span:not(:last-child):after { margin: 0 5px; position: relative; }
